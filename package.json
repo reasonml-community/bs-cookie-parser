@@ -1,0 +1,30 @@
+{
+  "name": "bs-cookie-parser",
+  "version": "0.0.1",
+  "description": "cookie-parser binding in ReasonML",
+  "dependencies": {
+    "bs-express": "git://github.com/mransan/bs-express.git#bf51a4ea7f6a14fab3abbf9978993e11f675c8c6",
+    "cookie-parser" : "^1.x.x" 
+  },
+  "devDependencies": {
+    "bs-platform": "^1.x.x"
+  },
+  "scripts": {
+    "build": "bsb -clean-world && bsb -make-world",
+    "start": "npm run-script build && node lib/js/example/",
+    "clean-build": "bsb -clean-world",
+    "test": "cd tests && ./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuckleTypes/bs-cookie-parser.git"
+  },
+  "keywords": [],
+  "author": "Maxime Ransan<maxime.ransan@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuckleTypes/bs-cookie-parser/issues"
+  },
+  "homepage": "https://github.com/BuckleTypes/bs-cookie-parser#readme",
+  "rebel": {}
+}

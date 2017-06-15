@@ -1,0 +1,5 @@
+{
+  "name" : "bs-cookie-parser",
+  "sources" : ["src", "example"],
+  "bs-dependencies": [ "bs-express"]
+}
