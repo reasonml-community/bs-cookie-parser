@@ -4,7 +4,7 @@ cookie-parser binding in ReasonML
 # Example
 
 ```Javascript
-let app = express ();
+let app = Express.express ();
 
 App.use app (CookieParser.make ()); 
 
