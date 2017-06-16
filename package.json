@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "cookie-parser binding in ReasonML",
   "dependencies": {
-    "bs-express": "git://github.com/mransan/bs-express.git#bf51a4ea7f6a14fab3abbf9978993e11f675c8c6",
+    "bs-express": "0.x.x",
     "cookie-parser" : "^1.x.x" 
   },
   "devDependencies": {
