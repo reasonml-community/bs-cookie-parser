@@ -13,7 +13,7 @@ App.listen app port::3000 ;
 
 # Installation 
 
-> TODO
+> use npm package bs-cookie-parser
 
 # Testing in development
 
