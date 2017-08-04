@@ -21,7 +21,7 @@
   },
   "keywords": [],
   "author": "Maxime Ransan<maxime.ransan@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BuckleTypes/bs-cookie-parser/issues"
   },
