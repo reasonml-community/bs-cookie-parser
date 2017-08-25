@@ -1,5 +1,6 @@
 {
-  "name" : "bs-cookie-parser",
-  "sources" : ["src", "example"],
+  "name": "bs-cookie-parser",
+  "bsc-flags": ["-bs-super-errors"],
+  "sources": ["src", "example"],
   "bs-dependencies": [ "bs-express"]
 }

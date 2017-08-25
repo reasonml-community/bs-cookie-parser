@@ -4,15 +4,15 @@
   "description": "cookie-parser binding in ReasonML",
   "dependencies": {
     "bs-express": "0.x.x",
-    "cookie-parser" : "^1.x.x" 
+    "cookie-parser" : "^1.x.x"
   },
   "devDependencies": {
-    "bs-platform": "^1.8.2"
+    "bs-platform": "^1.9.0"
   },
   "scripts": {
-    "build": "bsb -clean-world && bsb -make-world",
-    "start": "npm run-script build && node lib/js/example/",
-    "clean-build": "bsb -clean-world",
+    "build": "bsb -make-world",
+    "start": "npm run build && node lib/js/example/",
+    "clean": "bsb -clean-world",
     "test": "cd tests && ./test.sh"
   },
   "repository": {
