@@ -4,10 +4,10 @@
   "description": "cookie-parser binding in ReasonML",
   "dependencies": {
     "bs-express": "0.x.x",
-    "cookie-parser" : "^1.x.x"
+    "cookie-parser": "^1.x.x"
   },
   "devDependencies": {
-    "bs-platform": "^1.9.0"
+    "bs-platform": "^1.9.2"
   },
   "scripts": {
     "build": "bsb -make-world",
