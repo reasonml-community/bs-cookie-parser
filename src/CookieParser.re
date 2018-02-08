@@ -1,12 +1,9 @@
-external make_no_arg : unit => Express.Middleware.t = "cookie-parser" 
-  [@@bs.module];
+[@bs.module] external make_no_arg : unit => Express.Middleware.t = "cookie-parser";
 
-external make_with_secret : string => Express.Middleware.t = "cookie-parser" 
-  [@@bs.module];
+[@bs.module] external make_with_secret : string => Express.Middleware.t = "cookie-parser";
 
-let make ::secret=? () => {
+let make = (~secret=?, ()) =>
   switch secret {
-    | None => make_no_arg ();
-    | Some secret => make_with_secret secret;
+  | None => make_no_arg()
+  | Some(secret) => make_with_secret(secret)
   };
-};
