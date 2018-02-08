@@ -3,17 +3,27 @@
 
 # Example
 
-```Javascript
+```reason
 let app = Express.express ();
 
-App.use app (CookieParser.make ()); 
+App.use(app, (CookieParser.make())); 
 
-App.listen app port::3000 ;
+App.listen(app, ~port=3000);
 ```
 
 # Installation 
 
-> use npm package bs-cookie-parser
+``npm install --save bs-cookie-parser bs-express``
+Add bs-cookier-parser and bs-express to bsconfig.json. For example:
+```
+{
+  ...
+  "bs-dependencies": [
+    "bs-express",
+    "bs-cookie-parser"
+  ]
+}
+```
 
 # Testing in development
 
