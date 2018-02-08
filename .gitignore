@@ -1,7 +1,7 @@
 .DS_Store
 .merlin
 npm-debug.log
-/lib/bs/
+/lib/*
 /node_modules/
 
 tests/test.data
