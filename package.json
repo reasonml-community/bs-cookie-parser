@@ -1,6 +1,6 @@
 {
   "name": "bs-cookie-parser",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "cookie-parser binding in ReasonML",
   "dependencies": {
     "cookie-parser": "^1.x.x"
