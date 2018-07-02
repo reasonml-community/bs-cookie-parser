@@ -4,14 +4,14 @@
 # Example
 
 ```reason
-let app = Express.express ();
+let app = Express.express();
 
-App.use(app, (CookieParser.make())); 
+App.use(app, CookieParser.make());
 
 App.listen(app, ~port=3000);
 ```
 
-# Installation 
+# Installation
 
 ``npm install --save bs-cookie-parser bs-express``
 Add bs-cookier-parser and bs-express to bsconfig.json. For example:
